@@ -1,0 +1,15 @@
+/* 適用於整個程式碼區塊的滾動條設定 */
+.HyperMD-codeblock {
+    overflow-x: auto;  // 啟用水平滾動
+    white-space: nowrap;  // 防止自動折行
+}
+
+/* 隱藏水平滾動條 */
+.HyperMD-codeblock::-webkit-scrollbar {
+    display: block;
+}
+
+/* 程式碼區塊開始行的額外填充 */
+.HyperMD-codeblock-begin {
+    padding-bottom: 0.6rem;
+}
