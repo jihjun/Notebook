@@ -29,6 +29,9 @@ CommunityToolkit.Mvvm
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     xmlns:vm="clr-namespace:DataTemplate_test1.ViewModel"
+   
+		d:DataContext="{d:DesignInstance vm:MainViewModel, IsDesignTimeCreatable=True}"
+		
     Title="DataTemp_Window"
     Width="800"
     Height="450"

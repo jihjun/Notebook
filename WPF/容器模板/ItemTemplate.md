@@ -33,7 +33,8 @@
 
 你可以在 `DataTemplate` 中使用任何XAML控件來創建複雜的布局。例如，你可以添加圖片、按鈕或其他用戶界面元素：
 
-```xaml
+```cs
+
 <ListBox ItemsSource="{Binding DataList}">
     <ListBox.ItemTemplate>
         <DataTemplate>
@@ -47,6 +48,7 @@
         </DataTemplate>
     </ListBox.ItemTemplate>
 </ListBox>
+
 ```
 
 在這個擴展示例中，每個項目前面會有一個圖片，圖片的來源綁定到 `ImagePath` 屬性。這種方式讓列表更加豐富和互動性強。
@@ -67,7 +69,7 @@
 
 這是一個基本的 `DataTemplate` 使用範例，在一個 `ListBox` 控件中：
 
-```xaml
+```cs
 <ListBox ItemsSource="{Binding DataList}">
     <ListBox.ItemTemplate>
         <DataTemplate>
